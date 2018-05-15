@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,700');
+
+/* This rule changes the box-sizing; purely your preference. */
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+html {
+    /* example property below; make sure to include the ; at the end! */
+    /* display: grid; */
+}
+
+@media only screen and (max-width: 660px) {
+    header {
+        /* Example rule in the case where the width of the screen */
+        /* is less than 660px wide, such as in a mobile screen. */
+    }
+}
